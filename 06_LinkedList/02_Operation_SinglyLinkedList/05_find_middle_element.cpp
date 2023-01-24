@@ -17,15 +17,15 @@ public:
     {
         ListNode *slow, *fast;
         slow = fast = head;
-        // in case of even # of nodes if we want first node as middle then we have to do this
-        // slow = head;
-        // fast = head->next;
         while (fast and fast->next)
         {
             slow = slow->next;
             fast = fast->next->next;
         }
-        // slow will point to the middle element
         return slow;
     }
+    // in case of even # of nodes if we want first node as middle then we have to do this
+    // slow = head;
+    // fast = head->next;
+    // slow will point to the middle element
 };
