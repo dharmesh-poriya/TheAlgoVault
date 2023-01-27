@@ -45,3 +45,6 @@ public:
         return newHead;
     }
 };
+
+// add first method
+// → iteratively traversed linked list and pass each node to addFirst function and maintain one head.
