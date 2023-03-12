@@ -1,0 +1,43 @@
+ListNode *mergeTwoSortedLinkedList(ListNode *l1, ListNode *l2)
+{
+    if (!l1)
+        return l2;
+    if (!l2)
+        return l1;
+
+    ListNode *newHead, *current1, *current2, *tail;
+    newHead = tail = nullptr;
+    current1 = l1;
+    current2 = l2;
+    if (current1->val <= current2->val)
+    {
+        newHead = tail = current1;
+        current1 = current1->next;
+    }
+    else
+    {
+        newHead = tail = current2;
+        current2 = current2->next;
+    }
+
+    while (current1 and current2)
+    {
+        if (current1->val <= current2->val)
+        {
+            tail->next = current1;
+            tail = current1;
+            current1 = current1->next;
+        }
+        else
+        {
+            tail->next = current2;
+            tail = current2;
+            current2 = current2->next;
+        }
+    }
+    if (current1)
+        tail->next = current1;
+    else
+        tail->next = current2;
+    return newHead;
+}
