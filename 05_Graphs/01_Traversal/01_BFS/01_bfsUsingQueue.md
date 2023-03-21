@@ -1,7 +1,7 @@
 # BFS Using Queue for Connected Undirected Graph
 ### [Problem Link](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
 
-## Approach : 
+## Approach (Iterative) : 
 * create queue and push source node in it.
 * create visited array and mark all nodes as unvisited.
 * mark source node as visited.
@@ -43,4 +43,4 @@ vector<int> bfsOfGraph(int n, vector<int> adj[], int src = 0)
 #### Time Complexity : O(V+E) // V is # nodes and E is # of edges
 #### Space Complexity : O(V) // assume that in a worst case all nodes connected with src node.
 
---
+---
