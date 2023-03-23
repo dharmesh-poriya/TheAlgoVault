@@ -1,3 +1,16 @@
+# Disjoint Set Union By maintaining rank
+<!-- ### [Problem Link]() -->
+
+## Approach : 
+* create parent array and rank array.
+* initialize parent array with index of each node.
+* initialize rank array with 0.
+* create Find function which returns the parent of the node.
+* create Union function which merges two nodes.
+* create isConnected function which returns true if two nodes are connected.
+
+## Code : 
+```cpp
 class DSUByRank{
     private:
     int *parent;
@@ -35,5 +48,7 @@ class DSUByRank{
         return Find(x)==Find(y);
     }
 };
+```
 
-// Time complexity for find operation is O(log(n)) and for union operation is O(log(n))
+#### Time Complexity for Find and Union (worst case) : O(log(N)) // N is # of nodes
+---

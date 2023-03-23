@@ -1,3 +1,7 @@
+# Disjoint Set Union By maintaining parent
+
+## Code : 
+```cpp
 class DSU{
     private:
     int *parent;
@@ -30,4 +34,7 @@ class DSU{
         return Find(x)==Find(y);
     }
 };
-// worst case Time complexity for find operation is O(n) and for union operation is O(n)
+```
+
+#### Time Complexity for Find and Union (worst case) : O(N) // N is # of nodes
+---

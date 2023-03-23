@@ -1,3 +1,7 @@
+# Disjoint Set Union By rank and size
+
+## Code : 
+```cpp
 class DisjointSet{
     vector<int> parent,rank,size;
     public:
@@ -44,3 +48,4 @@ class DisjointSet{
         }
     }
 };
+```
