@@ -88,3 +88,8 @@ class Solution {
 #### Space Complexity : O(V)
 
 ---
+
+# Related Problems
+
+### 1. LeetCode: 802. Find Eventual Safe States ( [Try It](https://leetcode.com/problems/find-eventual-safe-states/) )
+### 2. GFG: Eventual Safe States ( [Try It](https://practice.geeksforgeeks.org/problems/eventual-safe-states/1) )
