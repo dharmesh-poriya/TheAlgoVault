@@ -85,6 +85,6 @@ class Solution {
 ```
 
 #### Time Complexity : O(V + E) // V is the number of vertices and E is the number of edges
-#### Space Complexity : O(2V)
+#### Space Complexity : O(V)
 
 ---
