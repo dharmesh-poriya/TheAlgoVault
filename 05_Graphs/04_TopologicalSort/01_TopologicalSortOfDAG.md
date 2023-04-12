@@ -53,5 +53,5 @@ class Solution
 
 # Related Problems
 
-<!-- ### 1. LeetCode: Name ( [Try It]() )
-### 1. GFG: Name ( [Try It]() ) -->
+<!-- ### 1. LeetCode: Name ( [Try It]() ) -->
+### 1. GFG: Detect cycle in a directed graph ( [Try It](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) )
