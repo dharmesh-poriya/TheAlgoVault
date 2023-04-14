@@ -53,5 +53,29 @@ class Solution
 
 # Related Problems
 
-<!-- ### 1. LeetCode: Name ( [Try It]() ) -->
-### 1. GFG: Detect cycle in a directed graph ( [Try It](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) )
+<h3>
+<details>
+<summary>LeetCode</summary>
+
+> ### 1. Problem: 207. Course Schedule ( [Try It](https://leetcode.com/problems/course-schedule/) )
+
+> ### 2. Problem: 802. Find Eventual Safe States ( [Try It](https://leetcode.com/problems/find-eventual-safe-states/) )( [My Solution](https://github.com/Dharmesh-Poriya07/Leetcode-GFG-Questions/tree/main/0802-find-eventual-safe-states) )
+
+</details>
+</h3>
+
+
+<h3>
+<details>
+<summary>GFG</summary>
+
+> ### 1. Detect cycle in a directed graph ( [Try It](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) )
+
+> ### 2. Prerequisite Tasks ( [Try It](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) )
+
+> ### 3. Course Schedule ( [Try It](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1) )
+
+> ### 4. Eventual Safe States ( [Try It](https://practice.geeksforgeeks.org/problems/eventual-safe-states/1) )
+
+</details>
+</h3>
