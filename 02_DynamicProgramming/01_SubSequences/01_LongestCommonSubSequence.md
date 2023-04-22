@@ -82,6 +82,7 @@ public:
 <summary>LeetCode</summary>
 
 > ### 1. Problem: 516. Longest Palindromic Subsequence ( [Try It](https://leetcode.com/problems/longest-palindromic-subsequence/) )
+> ### 2. Problem: 1312. Minimum Insertion Steps to Make a String Palindrome ( [Try It](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) )
 
 </details>
 </h3>
