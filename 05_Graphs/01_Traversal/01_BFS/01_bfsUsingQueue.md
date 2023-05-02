@@ -44,3 +44,25 @@ vector<int> bfsOfGraph(int n, vector<int> adj[], int src = 0)
 #### Space Complexity : O(V) // assume that in a worst case all nodes connected with src node.
 
 ---
+
+
+# Related Problems
+
+<!-- <h3>
+<details>
+<summary>LeetCode</summary>
+
+> ### 1. Problem: Name ( [Try It]() )
+
+</details>
+</h3> -->
+
+
+<h3>
+<details>
+<summary>GFG</summary>
+
+> ### 1. Shortest path in Undirected Graph having unit distance ( [Try It](https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1) )
+
+</details>
+</h3>
